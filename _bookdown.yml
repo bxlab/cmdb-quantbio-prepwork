@@ -1,6 +1,6 @@
 book_filename: "QBB Prepwork"
 chapter_name: "Chapter "
-repo: https://github.com/kweav/prepwork_revamp/
+repo: https://github.com/bxlab/cmdb-quantbio-prepwork/
 rmd_files: ["01-goals.Rmd",
             "02-logistics.Rmd",
             "03-bash.Rmd",
