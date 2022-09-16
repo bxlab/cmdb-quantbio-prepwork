@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 1 Introduction | QBB-Prepwork</title>
+  <title>Chapter 2 Logistics | QBB-Prepwork</title>
   <meta name="description" content="" />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 1 Introduction | QBB-Prepwork" />
+  <meta property="og:title" content="Chapter 2 Logistics | QBB-Prepwork" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 1 Introduction | QBB-Prepwork" />
+  <meta name="twitter:title" content="Chapter 2 Logistics | QBB-Prepwork" />
   
   
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-<link rel="next" href="logistics.html"/>
+<link rel="prev" href="introduction.html"/>
+<link rel="next" href="bash-1.html"/>
 <script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -430,40 +430,76 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <div class="hero-image-container">
   <img class= "hero-image" src= "https://github.com/jhudsl/OTTR_Template/raw/main/assets/dasl_thin_main_image.png">
 </div>
-<!--bookdown:title:end-->
-<!--bookdown:title:start-->
-<div id="introduction" class="section level1" number="1">
-<h1><span class="header-section-number">Chapter 1</span> Introduction</h1>
-<div id="learning-objectives" class="section level2" number="1.1">
-<h2><span class="header-section-number">1.1</span> Learning objectives</h2>
-<p>This set of prepwork chapters is intended to give you a brief exposure to the fundamentals of Bash and the Python programming language. By the time you’ve completed the prepwork, you should be able to</p>
+<div id="logistics" class="section level1" number="2">
+<h1><span class="header-section-number">Chapter 2</span> Logistics</h1>
+<div id="goal" class="section level2" number="2.1">
+<h2><span class="header-section-number">2.1</span> Goal</h2>
+<p>Below we describe two ways you can complete these exercises:</p>
 <ul>
-<li>Navigate around a file system using the command line</li>
-<li>Understand why we use both bash and Python in Computational Biology to analyze biological data</li>
-<li>Understand the basic data types in Python</li>
-<li>Open file streams</li>
-<li>Use conditionals</li>
-<li>Use a for-loop to iterate</li>
-<li>Write print statements</li>
-<li>Use pseudo-coding to identify problems/steps to a solution</li>
+<li>Online – Work “on the Cloud” using your laptop, browser, and internet connection</li>
+<li>Your Own Computer – Work “locally” with your own Python, text editor, and</li>
 </ul>
+<p>During your first year in the CMDB program, you will be provided with a laptop with everything you will need preloaded and configured already for you. So there is no need to use online interface resources in the actual class and by the end of the actual course, you will be able to run Bash commands and Python scripts from whatever machine you are working on, including accessing local files.</p>
+<p>Before the course, rather than expecting you to install or configure any software or Python on your local machine (which is a hassle), we are recommending specific online interfaces that will be useful for these prepwork chapters as you are introduced to and learning bash and Python fundamentals.</p>
+<p>If you would like to practice creating and running scripts to most closely mirror the experience you will have during the bootcamp, then we recommend that you use the local option for the Python chapters as much as possible.</p>
 </div>
-<div id="motivation" class="section level2" number="1.2">
-<h2><span class="header-section-number">1.2</span> Motivation</h2>
-<p>We recognize that each of you will be joining the CMDB program with your own unique background. This means that prior exposure to coding will vary from never having used the command line to proficient coders.</p>
-<p>For those of you to whom this is all new, know that we understand that this will be challenging but we believe that each and every one of you are capable of learning to code and become capable at bioinformatics. If you feel lost, ask for help. Our goal is for every person in this class to get an A, but more importantly to feel confident in your ability to handle basic programming and bioinformatic tasks.</p>
-<p>For the people already comfortable with programming, there are still things to learn, especially with respect to applying your knowledge to bioinformatic problems. Sometimes you will hear things you already know. Just take it as review. But more importantly, take it as an opportunity to help pass on that experience to your fellow classmates.</p>
-<p>You all are a cohort of graduate students. The best way to succeed, not just in this class but in your graduate career is to form a support structure with your fellow students now. Helping each other succeed will make your time here more fruitful and enjoyable. You are all in this together and we are here to facilitate your learning, provide support, and encourage.</p>
+<div id="online" class="section level2" number="2.2">
+<h2><span class="header-section-number">2.2</span> Online</h2>
+<div id="online-bash" class="section level3" number="2.2.1">
+<h3><span class="header-section-number">2.2.1</span> Online Bash</h3>
+<p>There is <a href="https://sandbox.bio/playground">an online bash interface resource</a> which you will have to use for Chapter 4. It will not help you in running Python scripts for the later chapters.</p>
+<p>This online interface contains a black window which is the bash interface with which you will be interacting.</p>
 </div>
-<div id="assistance" class="section level2" number="1.3">
-<h2><span class="header-section-number">1.3</span> Assistance</h2>
-<p>If at any time you encounter difficulty, please feel free to reach out to one of the TAs through Slack or email. This includes if you have questions or get an error while running through exercises in any chapter and need help debugging.</p>
-<ul>
-<li>Kate Weaver <a href="mailto:kweave23@jhu.edu" class="email">kweave23@jhu.edu</a></li>
-<li>Stephanie (Steph) Yan <a href="mailto:syan11@jhu.edu" class="email">syan11@jhu.edu</a></li>
-<li>Dylan Taylor <a href="mailto:dtaylo95@jhu.edu" class="email">dtaylo95@jhu.edu</a></li>
-<li>Andrew Bortvin <a href="mailto:abortvi2@jhu.edu" class="email">abortvi2@jhu.edu</a></li>
-</ul>
+<div id="online-python" class="section level3" number="2.2.2">
+<h3><span class="header-section-number">2.2.2</span> Online Python</h3>
+<p>There is <a href="https://www.online-python.com">an online Python interpreter</a> which we recommend you use in Chapters 7-10 to interact with examples For Chapters 12-18, if you are not familiar with navigating your filesystem from the command line (which we would expect you may not be), we highly recommend making use of the online interface.</p>
+<p>The online interface includes both a text editing interface to write your scripts in. You can create a new script for each example (Chapters 7-10) and each exercise (Chapters 12-18) by clicking the plus sign (<code>+</code>) next to the tab with the filename “main.py”.</p>
+<p>You can save any script using the “disk” icon above the editor.</p>
+<p>Below the editor is a “Run” button that executes your code, printing any output in the window below the editor.</p>
+<p>You will need to load the external file <code>random_snippet.vcf</code> to make it accessible to your script with the “folder” icon above the editor.
+Finally, there is a text field to the right of the “Run” button that says “Command Line Arguments” that you can use to pass arguments to your script. You will need this for Chapters 15-18.</p>
+</div>
+</div>
+<div id="local" class="section level2" number="2.3">
+<h2><span class="header-section-number">2.3</span> Local</h2>
+<div id="macs" class="section level3" number="2.3.1">
+<h3><span class="header-section-number">2.3.1</span> Macs</h3>
+<p>If you are using a Mac to complete the prepwork, you should be in good shape. Python should be already installed on your computer. You can verify this using Terminal which should also already be installed on your Mac. Open Terminal by typing “Terminal” in the Spotlight search. This will bring up a command line terminal. You can verify that Python is installed by typing <code>which python</code> in the opened command line terminal, then hit <code>&lt;return&gt;</code>. If the result is a filepath ending with some version of ‘python’, you are all set.</p>
+<p>You will also need a plain text editor such as TextEdit, TextMate, Sublime, etc. (NOT a wordprocessor like Word, Pages, etc.). TextEdit should already be installed. You will want to type Python code within files from the plain text editor of choice.</p>
+<p>You will then save those files and run them from terminal. Navigating to the folder where you saved the file (see Basic Bash Chapter 4 for more details), you then run the script like so:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="logistics.html#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> scriptname.py</span></code></pre></div>
+<p>If the script has any input files or arguments specific to it (more details in the Python Fundamentals Chapter 11 and Applied Python Exercise Chapters), you would run the script like so:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="logistics.html#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> scriptname.py inputfile argument</span></code></pre></div>
+<p>If for some reason Python is not installed or for any reason you would prefer to work with the online resources, jump back to the <a href="#Online-Python">Online Python</a> section.</p>
+</div>
+<div id="windows" class="section level3" number="2.3.2">
+<h3><span class="header-section-number">2.3.2</span> Windows</h3>
+<p>Unfortunately, Python does not come pre-installed on the Windows OS. You have a couple of options. First, you can install it by downloading the installer from <a href="https://www.python.org/downloads/windows/">here</a>. Select whatever Python3 version you want (I would go with 3.10). Then follow the instructions when you run the downloaded installer. Finally, verify that Python was successfully installed by opening <code>Command Prompt</code>, typing <code>python -V</code>, and hitting <code>&lt;Enter&gt;</code>. This should tell you what version of Python is installed on your system. In addition to Python and Command Prompt, you will also need a plain text editor like Notepad, Sublime, etc. (Not a wordprocessor like Word.)</p>
+<p>If you would prefer not to install Python, or for any reason you would prefer to work with the online resources, jump back to the <a href="#Online-Python">Online Python</a> section.</p>
+</div>
+<div id="unix" class="section level3" number="2.3.3">
+<h3><span class="header-section-number">2.3.3</span> Unix</h3>
+<p>If you are on a Unix system, Python should be pre-installed. If not, chances are that you are comfortable installing it yourself using <code>apt-get</code>, <code>dnf</code>, or whatever the appropriate package manager is for your distro. You will also need a terminal and plain text editor.</p>
+<p>If for some reason Python is not installed or for any reason you would prefer to work with the online resources, jump back to the <a href="#Online-Python">Online Python</a> section.</p>
+</div>
+</div>
+<div id="when-do-you-need-to-use-bash-and-python-in-this-prepwork" class="section level2" number="2.4">
+<h2><span class="header-section-number">2.4</span> When do you need to use Bash and Python in this prepwork?</h2>
+<div id="bash" class="section level3" number="2.4.1">
+<h3><span class="header-section-number">2.4.1</span> Bash</h3>
+<p>Chapter 4 requires that you use the <a href="https://sandbox.bio/playground">online bash sandbox</a> resource discussed above.</p>
+</div>
+<div id="python" class="section level3" number="2.4.2">
+<h3><span class="header-section-number">2.4.2</span> Python</h3>
+<p>Chapters 7-10 will describe fundamentals of working with Python to code. You are welcome, but not required, to use Python for any of the examples in those sections. If you choose to follow along using Python, you will want to copy and paste or type examples within a Python script or the Python text editor available in the <a href="https://www.online-python.com">online Python interface</a> (described earlier). Then you will want to run the code to see the output (either with Terminal, if working locally, or with the Run button in the online interface). Additionally, you may want to edit/remix/rewrite the code to see how changes affect the behavior and output.</p>
+<p>Chapters 12-18 will require you to use Python as you work through guided examples of pseudocoding and writing code in Python. Specifically, you will be asked to create a new Python script every single chapter. Chapters 12-18 will also require you to run your script to verify that it works as intended. You will run the script either with Terminal or with the Run button in the online interface.
+We recommend using the online Python editor if you are at all uncomfortable with creating, saving, and running Python scripts locally.</p>
+<p>Even though you are creating a new script every chapter, you will only be asked to turn in the final script (from Chapter 18). You are not required to turn in any pseudocode from any chapter.</p>
+</div>
+</div>
+<div id="submitting-your-final-script" class="section level2" number="2.5">
+<h2><span class="header-section-number">2.5</span> Submitting your final script</h2>
+<p>Once you have completed the last Applied Python Exercise Chapter (Chapter 18) of this prep work, you will need to submit the script you have produced (the tail script). To do this, please save it, naming it LASTNAME_tail.py, and then email it to Kate Weaver at <a href="mailto:kweave23@jhu.edu" class="email">kweave23@jhu.edu</a>.</p>
 
 </div>
 </div>
@@ -480,8 +516,8 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
           </div>
         </div>
       </div>
-
-<a href="logistics.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="introduction.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="bash-1.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

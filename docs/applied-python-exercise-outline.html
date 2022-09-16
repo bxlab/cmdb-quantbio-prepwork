@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 1 Introduction | QBB-Prepwork</title>
+  <title>Chapter 11 Applied Python Exercise Outline | QBB-Prepwork</title>
   <meta name="description" content="" />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 1 Introduction | QBB-Prepwork" />
+  <meta property="og:title" content="Chapter 11 Applied Python Exercise Outline | QBB-Prepwork" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 1 Introduction | QBB-Prepwork" />
+  <meta name="twitter:title" content="Chapter 11 Applied Python Exercise Outline | QBB-Prepwork" />
   
   
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-<link rel="next" href="logistics.html"/>
+<link rel="prev" href="fundamentals-of-python---importing-and-commenting.html"/>
+<link rel="next" href="applied-python-exercise-1.html"/>
 <script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -430,40 +430,45 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <div class="hero-image-container">
   <img class= "hero-image" src= "https://github.com/jhudsl/OTTR_Template/raw/main/assets/dasl_thin_main_image.png">
 </div>
-<!--bookdown:title:end-->
-<!--bookdown:title:start-->
-<div id="introduction" class="section level1" number="1">
-<h1><span class="header-section-number">Chapter 1</span> Introduction</h1>
-<div id="learning-objectives" class="section level2" number="1.1">
-<h2><span class="header-section-number">1.1</span> Learning objectives</h2>
-<p>This set of prepwork chapters is intended to give you a brief exposure to the fundamentals of Bash and the Python programming language. By the time you’ve completed the prepwork, you should be able to</p>
+<div id="applied-python-exercise-outline" class="section level1" number="11">
+<h1><span class="header-section-number">Chapter 11</span> Applied Python Exercise Outline</h1>
+<div id="goal-9" class="section level2" number="11.1">
+<h2><span class="header-section-number">11.1</span> Goal</h2>
+<p>Outline recreating and extending the bash tool <code>head</code> in Python</p>
+</div>
+<div id="learning-objectives-9" class="section level2" number="11.2">
+<h2><span class="header-section-number">11.2</span> Learning Objectives</h2>
+<p>After going through this chapter, students should be able to:</p>
 <ul>
-<li>Navigate around a file system using the command line</li>
-<li>Understand why we use both bash and Python in Computational Biology to analyze biological data</li>
-<li>Understand the basic data types in Python</li>
-<li>Open file streams</li>
-<li>Use conditionals</li>
-<li>Use a for-loop to iterate</li>
-<li>Write print statements</li>
-<li>Use pseudo-coding to identify problems/steps to a solution</li>
+<li>Explain what the tool <code>head</code> does</li>
+<li>List the different tasks that make up <code>head</code>’s main function</li>
+<li>State what the assignment is following these chapters</li>
 </ul>
 </div>
-<div id="motivation" class="section level2" number="1.2">
-<h2><span class="header-section-number">1.2</span> Motivation</h2>
-<p>We recognize that each of you will be joining the CMDB program with your own unique background. This means that prior exposure to coding will vary from never having used the command line to proficient coders.</p>
-<p>For those of you to whom this is all new, know that we understand that this will be challenging but we believe that each and every one of you are capable of learning to code and become capable at bioinformatics. If you feel lost, ask for help. Our goal is for every person in this class to get an A, but more importantly to feel confident in your ability to handle basic programming and bioinformatic tasks.</p>
-<p>For the people already comfortable with programming, there are still things to learn, especially with respect to applying your knowledge to bioinformatic problems. Sometimes you will hear things you already know. Just take it as review. But more importantly, take it as an opportunity to help pass on that experience to your fellow classmates.</p>
-<p>You all are a cohort of graduate students. The best way to succeed, not just in this class but in your graduate career is to form a support structure with your fellow students now. Helping each other succeed will make your time here more fruitful and enjoyable. You are all in this together and we are here to facilitate your learning, provide support, and encourage.</p>
+<div id="intro" class="section level2" number="11.3">
+<h2><span class="header-section-number">11.3</span> Intro</h2>
+<p>One of the strengths of Python that was previously mentioned is its versatility and how it can be used to extend and visualize the results of analyses performed with the command line. Therefore, the overarching goal of these prepwork chapters is to recreate and extend the functionality of a common bash tool using Python. These chapters will guide you through recreating <code>head</code>, adding some functionality outside of the tool’s basic behavior.</p>
+<p>As a reminder, <code>head</code> is used to display the first n number of lines in a file. If no number is specified, the tools defaults to displaying 10 lines.</p>
 </div>
-<div id="assistance" class="section level2" number="1.3">
-<h2><span class="header-section-number">1.3</span> Assistance</h2>
-<p>If at any time you encounter difficulty, please feel free to reach out to one of the TAs through Slack or email. This includes if you have questions or get an error while running through exercises in any chapter and need help debugging.</p>
-<ul>
-<li>Kate Weaver <a href="mailto:kweave23@jhu.edu" class="email">kweave23@jhu.edu</a></li>
-<li>Stephanie (Steph) Yan <a href="mailto:syan11@jhu.edu" class="email">syan11@jhu.edu</a></li>
-<li>Dylan Taylor <a href="mailto:dtaylo95@jhu.edu" class="email">dtaylo95@jhu.edu</a></li>
-<li>Andrew Bortvin <a href="mailto:abortvi2@jhu.edu" class="email">abortvi2@jhu.edu</a></li>
-</ul>
+<div id="coding-blueprint" class="section level2" number="11.4">
+<h2><span class="header-section-number">11.4</span> Coding Blueprint</h2>
+<p>In these chapters, you will be guided through writing code that does each of the following to recreate <code>head</code>:</p>
+<ol style="list-style-type: decimal">
+<li>displaying every line in an input file</li>
+<li>displaying just the first line in an input file</li>
+<li>displaying a specified number of lines from the beginning of an input file</li>
+<li>displaying a specific number of lines from the beginning of an input file, specifying the number outside of the code itself as an additional input</li>
+<li>displaying a default number of lines from the beginning of an input file if another number isn’t specified as an additional input</li>
+</ol>
+<p>Then, you will be guided through writing code that extends the recreated <code>head</code> program such that additionally it can</p>
+<ol start="6" style="list-style-type: decimal">
+<li>skip a file header before displaying the output</li>
+</ol>
+</div>
+<div id="final-assignment" class="section level2" number="11.5">
+<h2><span class="header-section-number">11.5</span> Final Assignment</h2>
+<p>Finally, you will be asked to take your recreated <code>head</code> program and edit it such that it would <code>tail</code> an input file instead.</p>
+<p>Each of these 7 tasks will focus on using a specific python fundamental or data type like for loops, conditionals, or lists. Each guided chapter will help you to break the task into small manageable pieces, write pseudocode for these smaller tasks, and then build the code. For the final task, you will be asked to both pseudocode and code on your own.</p>
 
 </div>
 </div>
@@ -480,8 +485,8 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
           </div>
         </div>
       </div>
-
-<a href="logistics.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="fundamentals-of-python---importing-and-commenting.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="applied-python-exercise-1.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
